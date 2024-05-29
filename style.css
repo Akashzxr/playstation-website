@@ -300,9 +300,10 @@ ul{
 
 .products_list-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 250px);
     gap: 3.75rem;
     margin-top: 4rem;
+    justify-content: center;
 }
 
 .products{
@@ -382,4 +383,156 @@ ul{
     position: relative;
     left: 19%;
     top: 13px;
+}
+
+.faqs_subtitle{
+    font-family: 'poppins',sans-serif;
+    color: #727382;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1.875rem;
+}
+
+.faqs_title{
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+
+.faqs_title-secondary{
+    color: #362ba9;
+}
+
+.faqs{
+    max-width: 968px;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+.faqs_subtitle-secondary{
+    font-family: 'roboto',sans-serif;
+    color: #727382;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.faqs_container{
+    background-color: rgba(164, 164, 164, 0.05);
+    border-radius: 10px;
+    max-width: 968px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #cccccc;
+    padding: 2.5rem 4.375rem 2.5rem 4.375rem;
+}
+
+.faqs_item-title{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    color: #5a5a5a;
+}
+
+.faqs_header{
+    border-top: 2px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faqs_icon{
+    font-size: 1.5rem;
+    color: #a4a4a4;
+}
+
+.hr_footer{
+    max-width: 990px;
+    margin: 6.25rem auto 3.125rem auto;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: max-content 70px 70px 190px ;
+    max-width: 968px;
+    margin: 0 auto 0 auto;
+    justify-items: center;
+    column-gap: 6.1875rem;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #0e0e0e;
+    gap: 1rem;
+}
+
+.footer_description{
+    font-family: 'roboto',sans-serif;
+    color: #727382;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+.font_icons{
+    display: flex;
+    gap: 13px;
+}
+
+.footer_icons i{
+    color: #727382;
+    font-size: 1.3rem;
+}
+
+.footer_title{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #0e0e0e;
+}
+
+.footer_links{
+    padding: 0;
+    display: grid;
+    row-gap: 21px;
+}
+
+.footer_links li{
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'roboto', sans-serif;
+    color: #727382;
+}
+
+.hr_footer-secondary{
+    max-width: 990px;
+    margin: 3.25rem auto 3.125rem auto;
+}
+
+.copyright{
+    font-family: 'roboto',sans-serif;
+    color: rgba(114, 115, 130, .8);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+::-webkit-scrollbar{
+    width: .6rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #362ba9;
+    border-radius: .5rem;
 }
