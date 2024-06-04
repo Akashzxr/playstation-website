@@ -23,12 +23,13 @@
 
     <!-- ========== Style ========== -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./res-style.css">
 
   </head>
   <body>
     <!-- =========== Header =========== -->
-    <header class="header" id="header">
-      <nav class="nav container">
+    <header class="header px-5" id="header">
+      <nav class="nav container ">
         <div class="nav_box">
           <a href="./index.html" class="nav_logo">
             <img
@@ -36,12 +37,13 @@
               width="44"
               height="41"
               alt="playstation logo"
+              class="w-7"
             />
             PlayStation
           </a>
         </div>
 
-        <div class="nav_menu">
+        <div class="nav_menu hidden lg:grid">
             <ul class="nav_list">
                 <li class="nav_item">
                     <a href="#" class="nav_link">Home</a>
@@ -61,8 +63,9 @@
             </ul>
         </div>
 
-        <div class="nav_btns">
+        <div class="nav_btns flex gap-3">
             <i class='bx bx-moon change-theme'></i>
+            <i class='bx bx-menu  change-theme'></i>
         </div>
 
       </nav>
@@ -73,7 +76,7 @@
     <main class="main">
       <!-- ======= Home ======== -->
       <section class="home" id="home">
-        <div class="home_container">
+        <div class="home_container grid-cols-1">
           <div class="home_data">
             <h1 class="home_title">
               PlayStation <br>
@@ -101,7 +104,7 @@
             </div>
             
           </div>
-          <img src="./assets/img/home/controller.webp" class="home_image" alt="">
+          <img src="./assets/img/home/controller.webp" class="home_image hidden lg:block" alt="">
         </div>
       </section>
 
