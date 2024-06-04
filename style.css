@@ -65,9 +65,13 @@ ul{
    margin-left: auto;
 }
 
-.change-theme{
+.change-theme,.menu-icon{
     font-size: 1.25rem;
     color: #8d8ea0;
+}
+
+.menu-icon{
+    visibility: hidden;
 }
 
 .home_container{

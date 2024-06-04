@@ -1,4 +1,9 @@
 @media screen and (max-width:600px) {
+
+    .menu-icon{
+        visibility: visible;
+    }
+
   html{
     width: 100%;
   }
