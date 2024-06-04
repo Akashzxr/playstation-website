@@ -17,12 +17,12 @@ ScrollReveal().reveal(`.products_subtitle, .products_title, .products_list-conta
 
 // ScrollReveal().reveal('.products_list-container',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400 });
 
-ScrollReveal().reveal('.faqs_subtitle',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400,mobile:false });
+ScrollReveal().reveal('.faqs_subtitle',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400, });
 
-ScrollReveal().reveal('.faqs_title',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400,mobile:false });
+ScrollReveal().reveal('.faqs_title',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400,});
 
-ScrollReveal().reveal('.faqs_subtitle-secondary',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400,mobile:false });
+ScrollReveal().reveal('.faqs_subtitle-secondary',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400, });
 
-ScrollReveal().reveal('.faqs_container',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400,mobile:false });
+ScrollReveal().reveal('.faqs_container',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400, });
 
-ScrollReveal().reveal('.footer',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400, mobile:false });
+ScrollReveal().reveal('.footer',{ easing: 'ease-in' , origin: 'top',distance: '60px' ,duration: 2500, opacity: 0,delay:400, });
