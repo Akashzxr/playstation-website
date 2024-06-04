@@ -72,6 +72,8 @@ ul{
 
 .menu-icon{
     visibility: hidden;
+    font-size: 1.25rem;
+    color: #8d8ea0;
 }
 
 .home_container{
